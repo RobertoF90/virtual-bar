@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans";
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  padding: 2rem 12rem;
+}
+
+.heading--primary {
+  font-size: 5.2rem;
+}
+
+.heading--secondary {
+  font-size: 4rem;
+}
+
+.paragraph--main {
+  font-size: 2.4rem;
+}
+
+.nav {
+  padding: 2rem 4rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.header__text-box {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  text-align: center;
+}
+
+/* SECTION COMPARAZIONI */
+
+.section__comparazioni {
+  text-align: center;
+}
+
+.card {
+  margin: 4rem 0;
+  padding: 3rem 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  align-items: center;
+  justify-items: center;
+
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.card--btn {
+  padding: 1rem 2rem;
+}

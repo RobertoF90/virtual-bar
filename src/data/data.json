@@ -1,0 +1,40 @@
+{
+  "lottomatica": {
+    "website": "Lottomatica",
+    "bonus": "SPORT FINO A 505€",
+    "bonusExtra": "100% di bonus + 5€ VIRTUALI",
+    "valutazione": "5",
+    "descrizione": "Vasta scelta per i virtual game",
+    "tipi": ["Calcio", "Cani Reali", "Cavalli"]
+  },
+
+  "snai": {
+    "website": "SNAI",
+    "bonus": "25% fino a 100€ sul primo deposito per i VIRTUALI ",
+    "bonusExtra": "100% di rimborso fino a 100€ sulle giocate non vincenti",
+    "valutazione": "5",
+    "descrizione": "Vasta scelta per i virtual game",
+    "tipi": ["Calcio", "Cani", "Cavalli"]
+  },
+
+  "william hill": {
+    "website": "William hill",
+    "bonus": "Triplo bonus di benvenuto 225€",
+    "bonusExtra": "5€ + 20€ + 200€ ",
+    "valutazione": "4"
+  },
+
+  "Planetwin 365": {
+    "website": "Planetwin 365",
+    "bonus": "BONUS SPORT DI BENVENUTO FINO A 300 €",
+    "bonusExtra": "Possibilità di exchange",
+    "valutazione": "3.5"
+  },
+
+  "Win hub": {
+    "website": "Win Hub",
+    "bonus": "Welcome 1000 €",
+    "bonusExtra": "Bonus di benvenuto fino a 1000€ di fun bonus sul primo deposito ",
+    "valutazione": "3.5"
+  }
+}
