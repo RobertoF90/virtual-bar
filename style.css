@@ -10,6 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "roboto";
 }
 
 h1,
@@ -25,8 +26,17 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
+i {
+  color: rgb(238, 189, 12);
+}
+
 .section {
-  padding: 2rem 12rem;
+  padding: 2rem 8rem;
+  text-align: center;
 }
 
 .heading--primary {
@@ -54,6 +64,10 @@ ul {
   gap: 2rem;
 }
 
+.nav picture {
+  width: 75px;
+}
+
 .header__text-box {
   max-width: 75%;
   margin: 0 auto;
@@ -67,26 +81,81 @@ ul {
   text-align: center;
 }
 
+.btn {
+}
+
 /* SECTION COMPARAZIONI */
 
 .section__comparazioni {
-  text-align: center;
 }
 
 .card {
-  margin: 4rem 0;
-  padding: 3rem 0;
+  background-color: #eee;
 
+  margin: 1rem 0;
+  padding: 0 2rem;
+
+  border-radius: 24px;
+}
+
+.card--comparazioni {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25fr 20fr 40fr 15fr;
 
   align-items: center;
   justify-items: center;
+}
 
-  border: 1px solid black;
-  border-radius: 12px;
+.card__container {
+  padding: 0 2rem;
+  margin: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+
+  gap: 1rem;
+
+  font-size: 2rem;
+}
+
+.card__element {
+  display: flex;
+  gap: 2rem;
+}
+
+.card__element i {
+  color: #000;
 }
 
 .card--btn {
   padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgb(30, 233, 30);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+}
+
+.card--btn:hover {
+  cursor: pointer;
+}
+
+/* RECENSIONI */
+
+.recensioni__container {
+  margin: 4rem 0;
+}
+
+.card--recensioni {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.card--recensioni .card__logo {
+  width: 25%;
+  text-align: center;
 }

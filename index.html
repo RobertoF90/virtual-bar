@@ -13,13 +13,23 @@
       rel="stylesheet"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/27aa0934b6.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Virtual Bar</title>
   </head>
   <body>
     <header>
       <nav class="nav">
         <picture>
-          <img src="" alt="Logo" />
+          <img src="./src/img/logo.jpeg" alt="Logo" />
         </picture>
         <ul class="nav__links">
           <li>Home</li>
@@ -40,6 +50,34 @@
     <section class="section section__comparazioni">
       <h2 class="heading--secondary">Comparazioni</h2>
       <div class="card__container"></div>
+    </section>
+
+    <section class="section section__recensioni">
+      <h2 class="heading--secondary">RECENSIONI DEI MIGLIORI VIRTUALI</h2>
+      <div class="recensioni__container">
+        <div class="card card--recensioni">
+          <div class="card__container card__logo">
+            <picture
+              ><img src="./src/img/lottomatica-logo.png" alt="Logo"
+            /></picture>
+            <h3>Lottomatica</h3>
+          </div>
+          <ul class="card__container">
+            <li>
+              <i class="fa-solid fa-star"></i> Vasta scelta di sport (calcio,
+              cavalli, levrieri)
+            </li>
+            <li>
+              <i class="fa-solid fa-star"></i> Doppia scelta tra eventi singoli
+              e competizioni a classifica
+            </li>
+            <li>
+              <i class="fa-solid fa-star"></i> Virtual calcio con partite reali
+              (Sezione Golden League)
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <script src="script.js"></script>
