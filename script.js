@@ -1,6 +1,8 @@
 const cardContainer = document.querySelector(".card__container");
+const reviewsContainer = document.querySelector(".recensioni__container");
 
 let cards = [];
+let reviews = [];
 
 async function getData() {
   const res = await fetch("./src/data/data.json");
@@ -9,9 +11,19 @@ async function getData() {
   cards.reverse();
 }
 
+async function getReviews() {
+  const res = await fetch("./src/data/reviews.json");
+  const data = await res.json();
+  Object.values(data).forEach((r) => reviews.push(r));
+  reviews.reverse();
+  console.log(reviews);
+}
+
 const init = async function () {
   await getData();
+  await getReviews();
   generateMarkup();
+  generateReviewsMarkup();
 };
 
 const generateMarkup = () => {
@@ -67,7 +79,27 @@ const generateMarkup = () => {
         `;
 
     cardContainer.insertAdjacentHTML("afterbegin", markup);
-    console.log(stars);
+  });
+};
+
+const generateReviewsMarkup = () => {
+  reviews.forEach((r) => {
+    const markup = ` <div class="card card--recensioni">
+    <div class="card__container card__logo">
+      <picture
+        ><img src="${r.logo}" alt="Logo"
+      /></picture>
+      <h3>${r.name}</h3>
+    </div>
+    <ul class="card__container">
+    ${r.reviews
+      .map((review) => `<li><i class="fa-solid fa-star"></i>${review}</li>`)
+      .join("")}
+     
+      
+    </ul>
+  </div>`;
+    reviewsContainer.insertAdjacentHTML("afterbegin", markup);
   });
 };
 
