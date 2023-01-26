@@ -7,7 +7,8 @@
       "Vasta scelta di sport (calcio, cavalli, levrieri)",
       "Doppia scelta tra eventi singoli e competizioni a classifica",
       "Virtual calcio con partite reali (Sezione Golden League)"
-    ]
+    ],
+    "video": "hm3wSz7N-Tw"
   },
   "Goldbet": {
     "name": "Goldbet",
@@ -17,7 +18,8 @@
       "Online 20h/24h",
       "Vasta scelta di Sport (calcio cavalli levrieri)",
       "Esperienza immersiva"
-    ]
+    ],
+    "video": "sAWU1x2ewh4"
   },
   "Snai": {
     "name": "Snai",
@@ -27,7 +29,8 @@
       "Virtual automobilismo, ciclismo, motociclismo",
       "3 tipologie di Virtual Calcio",
       "20% di Bonus al deposito esclusivo sui Virtuali"
-    ]
+    ],
+    "video": "r7dXVuBqjEs"
   },
   "Planetwin": {
     "name": "Planetwin",
@@ -37,16 +40,7 @@
       "Virtual dedicati ai Rigori",
       "Doppia scelta tra eventi singoli e competizioni a classifica",
       "Ampia scelta bonus primo deposito"
-    ]
-  },
-  "Sisal": {
-    "name": "Sisal",
-    "logo": "./src/img/lottomatica-logo.png",
-
-    "reviews": [
-      "Virtual Automobilismo",
-      "Doppia scelta tra eventi singoli e competizioni a classifica",
-      "Archivio delle gare scaricabile"
-    ]
+    ],
+    "video": "MqTpaa_SxI8"
   }
 }
