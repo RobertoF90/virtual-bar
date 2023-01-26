@@ -91,9 +91,12 @@ const generateReviewsMarkup = () => {
       /></picture>
       <h3>${r.name}</h3>
     </div>
-    <ul class="card__container">
+    <ul class="card__container--recensioni">
     ${r.reviews
-      .map((review) => `<li><i class="fa-solid fa-star"></i>${review}</li>`)
+      .map(
+        (review) =>
+          `<li class="recensioni--element"><i class="fa-solid fa-star"></i><p>${review}<p></li>`
+      )
       .join("")}
     </ul>
 

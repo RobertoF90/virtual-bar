@@ -11,6 +11,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "roboto";
+  background-color: #1c1934;
+  color: #fbd8ee;
 }
 
 h1,
@@ -68,10 +70,13 @@ i {
   width: 75px;
 }
 
+.nav__logo {
+  border-radius: 50%;
+}
+
 .header__text-box {
   max-width: 75%;
   margin: 0 auto;
-  padding: 2rem 0;
 
   display: flex;
   flex-direction: column;
@@ -90,7 +95,8 @@ i {
 }
 
 .card {
-  background-color: #eee;
+  background-color: #aaa;
+  color: #222;
 
   margin: 1rem 0;
   padding: 0 2rem;
@@ -115,6 +121,7 @@ i {
   flex-direction: column;
 
   justify-content: space-around;
+  align-items: center;
 
   gap: 1rem;
 
@@ -124,6 +131,17 @@ i {
 .card__element {
   display: flex;
   gap: 2rem;
+  width: 40%;
+}
+
+.card__container h4 {
+  font-size: 3rem;
+  color: #222;
+}
+
+.card__container p {
+  font-size: 2rem;
+  color: #444;
 }
 
 .card__element i {
@@ -134,7 +152,7 @@ i {
   padding: 1rem 2rem;
   font-size: 2rem;
   font-weight: 700;
-  background-color: rgb(30, 233, 30);
+  background-color: rgb(13, 217, 13);
   color: #fff;
   border: none;
   border-radius: 24px;
@@ -151,13 +169,41 @@ i {
 }
 
 .card--recensioni {
+  margin: 2rem 0;
   display: flex;
   text-align: left;
 
-  gap: 20rem;
+  gap: 10rem;
 }
 
 .card--recensioni .card__logo {
-  width: 50%;
+  width: 75%;
+  padding-left: 10%;
   text-align: center;
+}
+
+.recensioni--element {
+  display: flex;
+  gap: 1rem;
+}
+
+.recensioni--element p {
+  font-weight: 700;
+
+  color: #000;
+}
+
+.card__container--recensioni {
+  width: 100%;
+  padding: 0 2rem;
+  margin: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+
+  gap: 1rem;
+
+  font-size: 2rem;
 }
