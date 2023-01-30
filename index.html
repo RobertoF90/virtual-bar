@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,25 +27,28 @@
     <title>Virtual Bar</title>
   </head>
   <body>
+    <div class="overlay hidden"></div>
     <header>
       <nav class="nav">
         <picture>
           <img class="nav__logo" src="./src/img/logo.jpeg" alt="Logo" />
         </picture>
         <h1 class="heading--primary">Virtual Bar</h1>
+        <div class="nav__mobile">
+          <i class="fa-solid fa-bars"></i>
+        </div>
         <ul class="nav__links">
-          <li>Home</li>
-          <li>Link</li>
+          <li class="nav__links--link" data-id="comparazioni">Comparazioni</li>
+          <li class="nav__links--link" data-id="recensioni">Recensioni</li>
         </ul>
       </nav>
 
       <div class="header__text-box">
         <p class="paragraph--main">
-          Virtual Bar è la prima community in Italia di Sport Virtuali. Ogni
-          giorno informa e consiglia ai propri utenti le migliori piattaforme
-          per un’esperienza unica.
+          Virtual Bar è la prima community in Italia di Sport Virtuali. <br />
+          Ogni giorno informa e consiglia ai propri utenti le migliori
+          piattaforme per un’esperienza unica.
         </p>
-        <p class="paragraph--main"></p>
 
         <p class="paragraph--main">
           Nel
@@ -55,20 +59,28 @@
           >
             nostro canale Telegram
           </a>
-          troverai ogni giorno sessioni in streaming Live sui migliori
+          troverai ogni giorno <br />sessioni in streaming Live sui migliori
           bookmaker.
         </p>
       </div>
     </header>
     <section class="section section__comparazioni">
-      <h2 class="heading--secondary">Comparazioni</h2>
+      <h2 class="heading--primary">COMPARAZIONI</h2>
       <div class="card__container"></div>
     </section>
 
-    <section class="section">
-      <h1 class="heading--secondary">
-        UNISCITI AL NOSTRO CANALE PER NON PERDERTI LE LIVE
-      </h1>
+    <section class="section section__unisciti">
+      <h2 class="heading--secondary">
+        UNISCITI AL NOSTRO CANALE PER NON PERDERTI LE
+        <div class="live"></div>
+        LIVE
+      </h2>
+      <a href="https://t.me/+B7yX9yWEmuRjMWQ0">
+        <div class="card__telegram">
+          <i class="fa-brands fa-telegram"></i>
+          <h2>UNISCITI ORA!</h2>
+        </div>
+      </a>
 
       <h2>
         Non esistono trucchi per vincere nei virtual games. Esistono, piuttosto,
@@ -77,11 +89,12 @@
       </h2>
     </section>
 
-    <section class="section section__recensioni">
-      <h2 class="heading--secondary">RECENSIONI DEI MIGLIORI VIRTUALI</h2>
+    <section class="section section__recensioni" data-id="recensioni">
+      <h2 class="heading--primary">RECENSIONI DEI MIGLIORI VIRTUALI</h2>
       <div class="recensioni__container"></div>
     </section>
 
     <script src="script.js"></script>
+    <script src="navigation.js"></script>
   </body>
 </html>

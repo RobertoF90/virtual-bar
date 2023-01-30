@@ -24,6 +24,10 @@ h6 {
   font-family: "Work Sans";
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -56,9 +60,10 @@ i {
 
 .nav {
   padding: 2rem 4rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
-  justify-content: space-between;
+  justify-items: center;
   align-items: center;
 }
 
@@ -70,19 +75,31 @@ i {
 .nav__links {
   display: flex;
 
+  font-size: 2rem;
   gap: 2rem;
+
+  justify-self: end;
+}
+
+.nav__links:hover {
+  cursor: pointer;
 }
 
 .nav picture {
   width: 75px;
+  justify-self: baseline;
 }
 
 .nav__logo {
   border-radius: 50%;
 }
 
+.nav__mobile {
+  display: none;
+}
+
 .header__text-box {
-  max-width: 70%;
+  max-width: 75%;
   margin: 0 auto;
 
   display: flex;
@@ -99,6 +116,11 @@ i {
 }
 
 .btn {
+}
+
+.card__telegram i {
+  color: #229ed9;
+  font-size: 6rem;
 }
 
 /* SECTION COMPARAZIONI */
@@ -177,6 +199,42 @@ i {
   cursor: pointer;
 }
 
+.section__unisciti {
+  padding: 4rem 18rem;
+}
+
+.card__telegram {
+  background-color: #ffd4fb;
+  color: #222;
+
+  box-shadow: 0px 0px 5px 3px #8b5382;
+  border: none;
+
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+
+  border-radius: 20px;
+
+  width: 75%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.live {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: -0.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: rgb(246, 32, 32);
+
+  border-radius: 50%;
+}
 /* RECENSIONI */
 
 .recensioni__container {
@@ -221,4 +279,9 @@ i {
   gap: 1rem;
 
   font-size: 2rem;
+}
+
+iframe {
+  width: 56rem;
+  height: 31.5rem;
 }

@@ -16,7 +16,6 @@ async function getReviews() {
   const data = await res.json();
   Object.values(data).forEach((r) => reviews.push(r));
   reviews.reverse();
-  console.log(reviews);
 }
 
 const init = async function () {
@@ -54,7 +53,7 @@ const generateMarkup = () => {
                     <h3>${c.website}</h3>
                     <div>${stars.join("")}</div>
                 </div>
-                  <ul class="card__container">
+                  <ul class="card__container card__types">
                     ${
                       c.tipi
                         ? c.tipi
@@ -102,7 +101,7 @@ const generateReviewsMarkup = () => {
 
     </div>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${
+    <iframe src="https://www.youtube.com/embed/${
       r.video
     }" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     `;
