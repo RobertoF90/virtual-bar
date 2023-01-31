@@ -123,4 +123,8 @@
     padding: 0;
     text-align: center;
   }
+  iframe {
+    width: 85%;
+    height: auto;
+  }
 }
