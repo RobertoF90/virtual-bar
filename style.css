@@ -12,7 +12,7 @@ body {
   font-size: 1.6rem;
   font-family: "roboto";
   background-color: #1c1934;
-  color: #fbd8ee;
+  color: #fff;
 }
 
 h1,
@@ -55,38 +55,61 @@ i {
 }
 
 .paragraph--main {
-  font-size: 3.2rem;
+  font-size: 4.2rem;
+  padding: 2rem 2rem;
+  background-color: #000000cc;
+  backdrop-filter: blur(7px);
+  border-radius: 30px;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(./src/img/header.png);
+  background-size: cover;
 }
 
 .nav {
+  height: 20vh;
   padding: 2rem 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 10fr 80fr 10fr;
 
   justify-items: center;
   align-items: center;
 }
 
 .nav h1 {
+  font-size: 9.6rem;
   text-transform: uppercase;
   text-shadow: 0px 0px 25px #8b5382;
 }
 
 .nav__links {
   display: flex;
+  flex-direction: column;
+  font-weight: 700;
 
-  font-size: 2rem;
+  font-size: 3rem;
   gap: 2rem;
 
-  justify-self: end;
+  text-align: center;
 }
 
 .nav__links:hover {
   cursor: pointer;
 }
 
+.nav__links--link {
+  padding: 1rem 2rem;
+
+  color: #882a6f;
+  background-color: #ffd4fb;
+
+  border-radius: 12px;
+}
+
 .nav picture {
-  width: 75px;
+  height: 100%;
   justify-self: baseline;
 }
 
@@ -100,19 +123,36 @@ i {
 
 .header__text-box {
   max-width: 75%;
+  height: 80vh;
   margin: 0 auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+
   gap: 2rem;
 
   text-align: center;
 }
 
+.header__text-box span {
+  font-weight: 700;
+  color: #882a6f;
+
+  font-size: 5.2rem;
+}
+
 .header__link {
-  text-decoration: none;
-  color: #a66494;
+  font-weight: 700;
+  text-decoration: nosne;
+  color: #b2dff7;
+
+  transition: all 0.2s;
+}
+
+.header__link:hover {
+  color: #882a6f;
 }
 
 .btn {
@@ -282,6 +322,5 @@ i {
 }
 
 iframe {
-  width: 56rem;
-  height: 31.5rem;
+  width: 85%;
 }

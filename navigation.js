@@ -20,4 +20,5 @@ const navigation = (e) => {
 };
 
 overlay.addEventListener("click", navigation);
+
 navBtn.addEventListener("click", navigation);
