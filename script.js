@@ -1,4 +1,6 @@
-const cardContainer = document.querySelector(".card__container");
+const comparazioniContainer = document.querySelector(
+  ".comparazioni--container"
+);
 const reviewsContainer = document.querySelector(".recensioni__container");
 
 let cards = [];
@@ -77,14 +79,14 @@ const generateMarkup = () => {
              </div>
         `;
 
-    cardContainer.insertAdjacentHTML("afterbegin", markup);
+    comparazioniContainer.insertAdjacentHTML("afterbegin", markup);
   });
 };
 
 const generateReviewsMarkup = () => {
   reviews.forEach((r) => {
     const markup = ` <div class="card card--recensioni">
-    <div class="card__container card__logo">
+    <div class=" card__logo">
       <picture
         ><img src="${r.logo}" alt="Logo"
       /></picture>

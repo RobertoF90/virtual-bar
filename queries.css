@@ -25,6 +25,16 @@
     font-size: 40%;
   }
 
+  .heading--primary {
+    font-size: 6rem;
+  }
+
+  .header__text-box {
+    max-width: 85%;
+
+    text-align: center;
+  }
+
   .nav {
     padding: 2rem 4rem;
     display: flex;
@@ -98,6 +108,11 @@
     padding: 2rem 4rem;
   }
 
+  .card__container {
+    margin: 0;
+    row-gap: 2rem;
+  }
+
   .card--comparazioni {
     display: flex;
     flex-direction: column;
@@ -111,11 +126,12 @@
   }
 
   .card--recensioni {
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    gap: 0;
+    gap: 2rem;
   }
 
   .card--recensioni .card__logo {

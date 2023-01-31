@@ -47,7 +47,7 @@ i {
 }
 
 .heading--primary {
-  font-size: 5.2rem;
+  font-size: 6.4rem;
 }
 
 .heading--secondary {
@@ -167,6 +167,13 @@ i {
 
 .section__comparazioni {
 }
+.comparazioni--container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem 0;
+  gap: 2rem;
+}
 
 .card {
   background-color: #ffd4fb;
@@ -191,16 +198,16 @@ i {
 
 .card__container {
   width: 100%;
-  padding: 0 2rem;
+  height: 100%;
+  padding: 2rem;
   margin: 2rem 0;
 
-  display: flex;
-  flex-direction: column;
+  display: grid;
 
-  justify-content: space-around;
+  justify-items: center;
   align-items: center;
 
-  gap: 1rem;
+  row-gap: 0rem;
 
   font-size: 2.8rem;
 }
@@ -209,20 +216,21 @@ i {
   display: flex;
   gap: 2rem;
   width: 40%;
+  padding: 1rem 0;
 }
 
 .card__container h4 {
-  font-size: 5.2rem;
+  font-size: 3.2rem;
   color: #222;
 }
 
 .card__container p {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   color: #444;
 }
 
 .fa-star {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
 }
 
 .card__element i {
@@ -289,15 +297,22 @@ i {
 .card--recensioni {
   margin: 2rem 0;
   display: flex;
+  align-items: center;
   text-align: left;
 
-  gap: 10rem;
+  gap: 10%;
 }
 
 .card--recensioni .card__logo {
-  width: 75%;
-  padding-left: 10%;
+  width: 100%;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.8rem;
 }
 
 .recensioni--element {
@@ -313,20 +328,18 @@ i {
 
 .card__container--recensioni {
   width: 100%;
-  padding: 0 2rem;
-  margin: 2rem 0;
+  padding: 2rem;
 
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
 
   gap: 1rem;
 
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 
 iframe {
-  width: 85%;
-  height: 100%;
+  width: 720px;
+  height: 480px;
 }
