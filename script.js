@@ -105,7 +105,7 @@ const generateReviewsMarkup = () => {
     
     <iframe src="https://www.youtube.com/embed/${
       r.video
-    }" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    }" title="YouTube video player"  width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     `;
 
     reviewsContainer.insertAdjacentHTML("afterbegin", markup);

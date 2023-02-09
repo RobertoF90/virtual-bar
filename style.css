@@ -32,10 +32,6 @@ ul {
   list-style: none;
 }
 
-img {
-  width: 100%;
-}
-
 i {
   color: rgb(255, 200, 0);
   padding: 0 0.3rem;
@@ -54,42 +50,25 @@ i {
   font-size: 4rem;
 }
 
-.paragraph--main {
-  font-size: 4.2rem;
-  padding: 2rem 2rem;
-  background-color: #000000cc;
-  backdrop-filter: blur(7px);
-  border-radius: 30px;
-}
-
 .header {
-  height: 100vh;
-  background-image: url(./src/img/header.png);
-  background-size: cover;
+  /* height: 100vh; */
+  /* background-image: url(./src/img/header.png);
+  background-size: cover; */
 }
 
 .nav {
   height: 20vh;
   padding: 2rem 4rem;
-  display: grid;
-  grid-template-columns: 10fr 80fr 10fr;
-
-  justify-items: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-
-.nav h1 {
-  font-size: 9.6rem;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 25px #8b5382;
 }
 
 .nav__links {
   display: flex;
-  flex-direction: column;
   font-weight: 700;
 
-  font-size: 3rem;
+  font-size: 2.8rem;
   gap: 2rem;
 
   text-align: center;
@@ -102,15 +81,19 @@ i {
 .nav__links--link {
   padding: 1rem 2rem;
 
-  color: #882a6f;
-  background-color: #ffd4fb;
+  /* color: #882a6f;
+  background-color: #ffd4fb; */
 
   border-radius: 12px;
 }
 
 .nav picture {
   height: 100%;
-  justify-self: baseline;
+}
+
+.nav picture img {
+  width: auto;
+  height: 100%;
 }
 
 .nav__logo {
@@ -121,10 +104,16 @@ i {
   display: none;
 }
 
+.header h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 25px #8b5382;
+}
+
 .header__text-box {
-  max-width: 75%;
-  height: 80vh;
-  margin: 0 auto;
+  max-width: 80%;
+  /* height: 80vh; */
+  margin: 2rem auto 6rem auto;
 
   display: flex;
   flex-direction: column;
@@ -136,11 +125,17 @@ i {
   text-align: center;
 }
 
+.paragraph--main {
+  font-size: 3.6rem;
+  padding: 2rem 2rem;
+  /* background-color: #000000cc;
+  backdrop-filter: blur(7px);
+  border-radius: 30px; */
+}
+
 .header__text-box span {
   font-weight: 700;
-  color: #882a6f;
-
-  font-size: 5.2rem;
+  /* color: #882a6f; */
 }
 
 .header__link {
@@ -209,7 +204,11 @@ i {
 
   row-gap: 0rem;
 
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+}
+
+.card__container img {
+  width: 100%;
 }
 
 .card__element {
@@ -220,7 +219,7 @@ i {
 }
 
 .card__container h4 {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   color: #222;
 }
 
@@ -240,7 +239,7 @@ i {
 .card--btn {
   margin: 2rem 0;
   padding: 1.5rem 3rem;
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   font-weight: 700;
   background-color: rgb(13, 217, 13);
   color: #fff;
@@ -313,6 +312,10 @@ i {
   justify-content: center;
 
   font-size: 2.8rem;
+}
+
+.card__logo img {
+  width: 100%;
 }
 
 .recensioni--element {

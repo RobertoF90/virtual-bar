@@ -6,7 +6,6 @@
 
 @media (max-width: 780px) {
   html {
-    font-size: 40%;
   }
 }
 
@@ -22,7 +21,7 @@
 
 @media (max-width: 500px) {
   html {
-    font-size: 40%;
+    font-size: 42.5%;
   }
 
   .heading--primary {
@@ -30,7 +29,7 @@
   }
 
   .header__text-box {
-    max-width: 85%;
+    max-width: 100%;
 
     text-align: center;
   }
@@ -110,14 +109,15 @@
 
   .card__container {
     margin: 0;
-    row-gap: 2rem;
+    row-gap: 1rem;
+    padding: 1rem 2rem;
   }
 
   .card--comparazioni {
+    padding: 1rem 2rem;
+
     display: flex;
     flex-direction: column;
-
-    padding: 2rem 0;
   }
 
   .card__types {
@@ -140,7 +140,7 @@
     text-align: center;
   }
   iframe {
-    width: 85%;
+    width: 100%;
     height: auto;
   }
 }
