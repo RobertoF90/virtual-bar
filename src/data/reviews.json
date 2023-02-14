@@ -2,18 +2,18 @@
   "lottomatica": {
     "name": "lottomatica",
     "logo": "./src/img/lottomatica-logo.png",
-
     "reviews": [
       "Vasta scelta di sport (calcio, cavalli, levrieri)",
       "Doppia scelta tra eventi singoli e competizioni a classifica",
       "Virtual calcio con partite reali (Sezione Golden League)"
     ],
-    "video": "hm3wSz7N-Tw"
+    "video": "hm3wSz7N-Tw",
+    "link": "https://bit.ly/3UOEfCH"
   },
+
   "Goldbet": {
     "name": "Goldbet",
     "logo": "./src/img/goldbet.png",
-
     "reviews": [
       "Online 20h/24h",
       "Vasta scelta di Sport (calcio cavalli levrieri)",
@@ -21,26 +21,28 @@
     ],
     "video": "sAWU1x2ewh4"
   },
+
   "Snai": {
     "name": "Snai",
     "logo": "./src/img/logo-snai.png",
-
     "reviews": [
       "Virtual automobilismo, ciclismo, motociclismo",
       "3 tipologie di Virtual Calcio",
       "20% di Bonus al deposito esclusivo sui Virtuali"
     ],
-    "video": "r7dXVuBqjEs"
+    "video": "r7dXVuBqjEs",
+    "link": "https://bit.ly/3ifjsuo"
   },
+
   "Planetwin": {
     "name": "Planetwin",
     "logo": "./src/img/planetwin365-logo-transp.png",
-
     "reviews": [
       "Virtual dedicati ai Rigori",
       "Doppia scelta tra eventi singoli e competizioni a classifica",
       "Ampia scelta bonus primo deposito"
     ],
-    "video": "MqTpaa_SxI8"
+    "video": "MqTpaa_SxI8",
+    "link": "http://bit.ly/3QKeuD0"
   }
 }

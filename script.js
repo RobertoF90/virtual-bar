@@ -85,7 +85,9 @@ const generateMarkup = () => {
 
 const generateReviewsMarkup = () => {
   reviews.forEach((r) => {
-    const markup = ` <div class="card card--recensioni">
+    const markup = `
+    <a href="${r.link}" target="_blank">
+    <div class="card card--recensioni">
     <div class=" card__logo">
       <picture
         ><img src="${r.logo}" alt="Logo"
@@ -102,6 +104,7 @@ const generateReviewsMarkup = () => {
     </ul>
 
     </div>
+    </a>
     
     <iframe src="https://www.youtube.com/embed/${
       r.video

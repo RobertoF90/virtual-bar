@@ -31,19 +31,19 @@
   }
 
   .nav {
+    height: auto;
     padding: 2rem 4rem;
     display: flex;
-
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column-reverse;
+    align-items: flex-end;
   }
 
   .nav picture {
-    padding-left: 25%;
+    padding-top: 2rem;
   }
 
   .nav picture img {
-    height: 100%;
+    width: 100%;
   }
 
   .nav h1 {
@@ -52,7 +52,7 @@
 
   .nav__mobile {
     display: block;
-    font-size: 8rem;
+    font-size: 4rem;
   }
 
   .nav__links {
