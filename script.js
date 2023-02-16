@@ -7,14 +7,14 @@ let cards = [];
 let reviews = [];
 
 async function getData() {
-  const res = await fetch("./src/data/data.json");
+  const res = await fetch("./src/data/comparazioni.json");
   const data = await res.json();
   Object.values(data).forEach((p) => cards.push(p));
   cards.reverse();
 }
 
 async function getReviews() {
-  const res = await fetch("./src/data/reviews.json");
+  const res = await fetch("./src/data/recensioni.json");
   const data = await res.json();
   Object.values(data).forEach((r) => reviews.push(r));
   reviews.reverse();
