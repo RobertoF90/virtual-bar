@@ -186,6 +186,8 @@ i {
   padding: 0 2rem;
 
   border-radius: 20px;
+
+  transition: all 0.2s;
 }
 
 .card--comparazioni {
@@ -194,6 +196,10 @@ i {
 
   align-items: center;
   justify-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card__container {
@@ -279,6 +285,12 @@ i {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+
+  transition: all 0.2s;
+}
+
+.card__telegram:hover {
+  transform: scale(1.1);
 }
 
 .live {
@@ -300,6 +312,7 @@ i {
 
 .card--recensioni {
   margin: 2rem 0;
+  padding-left: 4rem;
   display: flex;
   align-items: center;
   text-align: left;

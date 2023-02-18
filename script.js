@@ -49,6 +49,7 @@ const generateMarkup = () => {
     };
 
     const markup = `
+    <a href="${c.link}" target="_blank">
         <div class="card card--comparazioni">
                 <div class="card__container">
                   <picture><img src="${c.logo}" alt="Logo" /></picture>
@@ -73,10 +74,10 @@ const generateMarkup = () => {
                     <h4>${c.bonus}</h4>
                     <div>${c.bonusExtra}</div>
                   </ul>
-                <a href="${c.link}" target="_blank">
-                   <button class="btn card--btn">Riscuoti il bonus</button>
-                </a>
-             </div>
+
+                   <button class="btn card--btn">VISITA IL SITO</button>
+                   </div>
+                   </a>
         `;
 
     comparazioniContainer.insertAdjacentHTML("afterbegin", markup);
