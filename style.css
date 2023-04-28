@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "roboto";
+  font-family: 'roboto';
   background-color: #1c1934;
   color: #fff;
 }
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Work Sans";
+  font-family: 'Work Sans';
 }
 
 a {
@@ -43,11 +43,11 @@ i {
 }
 
 .heading--primary {
-  font-size: 6.4rem;
+  font-size: 5.2rem;
 }
 
 .heading--secondary {
-  font-size: 4rem;
+  font-size: 3.2rem;
 }
 
 .header {
@@ -68,7 +68,7 @@ i {
   display: flex;
   font-weight: 700;
 
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   gap: 2rem;
 
   text-align: center;
@@ -110,7 +110,7 @@ i {
 } */
 
 .header h1 {
-  font-size: 6rem;
+  font-size: 5.2rem;
   text-transform: uppercase;
   text-shadow: 0px 0px 25px #8b5382;
 }
@@ -131,7 +131,7 @@ i {
 }
 
 .paragraph--main {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   padding: 2rem 2rem;
   /* background-color: #000000cc;
   backdrop-filter: blur(7px);
@@ -160,7 +160,7 @@ i {
 
 .card__telegram i {
   color: #229ed9;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 /* SECTION COMPARAZIONI */
@@ -215,7 +215,7 @@ i {
 
   row-gap: 0rem;
 
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .card__container img {
@@ -230,17 +230,17 @@ i {
 }
 
 .card__container h4 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #222;
 }
 
 .card__container p {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #444;
 }
 
 .fa-star {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
 }
 
 .card__element i {
@@ -250,7 +250,7 @@ i {
 .card--btn {
   margin: 2rem 0;
   padding: 1.5rem 3rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
   background-color: rgb(13, 217, 13);
   color: #fff;
@@ -275,11 +275,11 @@ i {
 
   margin: 3rem auto;
   padding: 1rem 2rem;
-  font-size: 3rem;
+  font-size: 2.6rem;
 
   border-radius: 20px;
 
-  width: 75%;
+  width: 50%;
 
   display: flex;
   flex-direction: row;
@@ -312,7 +312,7 @@ i {
 
 .card--recensioni {
   margin: 2rem 0;
-  padding-left: 4rem;
+  padding: 1rem 4rem;
   display: flex;
   align-items: center;
   text-align: left;
@@ -329,7 +329,7 @@ i {
   align-items: center;
   justify-content: center;
 
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 
 .card__logo img {
@@ -355,9 +355,9 @@ i {
   flex-direction: column;
   justify-content: space-around;
 
-  gap: 1rem;
+  gap: 2rem;
 
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 iframe {
