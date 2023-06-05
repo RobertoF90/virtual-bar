@@ -19,18 +19,26 @@
     font-size: 42.5%;
   }
 
+  .header {
+    height: auto;
+    background-image: none;
+  }
+
   .header__text-box {
     max-width: 100%;
 
     text-align: center;
+
+    position: unset;
+    transform: none;
   }
 
   .nav {
-    height: auto;
+    /* height: auto; */
     padding: 2rem 4rem;
     display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+    /* flex-direction: column-reverse; */
+    align-items: flex-start;
   }
 
   .nav picture {
