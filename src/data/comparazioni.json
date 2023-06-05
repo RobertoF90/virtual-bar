@@ -5,9 +5,28 @@
     "bonus": "SPORT FINO A 505€",
     "bonusExtra": "100% di bonus + 5€ VIRTUALI",
     "valutazione": "5",
-    "descrizione": "Vasta scelta per i virtual game",
+    "descrizione": "",
     "tipi": ["Calcio", "Cani", "Cavalli"],
     "link": "https://media.lottomaticapartners.it/redirect.aspx?pid=8626&bid=1508"
+  },
+  "goldbet": {
+    "logo": "./src/img/goldbet.png",
+    "website": "GoldBet",
+    "bonus": "100% di bonus fino a 500€",
+    "bonusExtra": "5€ subito per i Virtual",
+    "valutazione": "4.5",
+    "descrizione": "",
+    "tipi": ["Calcio", "Cani", "Cavalli"],
+    "link": "https://bit.ly/3QXYn5f"
+  },
+  "eurobet": {
+    "logo": "./src/img/eurobet.png",
+    "website": "EuroBet",
+    "bonus": "15€ gratis sul primo deposito",
+    "bonusExtra": "30 free spin",
+    "valutazione": "5",
+    "descrizione": "Subito per i Virtual",
+    "link": "https://bit.ly/42r5OXw"
   },
 
   "snai": {
@@ -15,19 +34,65 @@
     "website": "SNAI",
     "bonus": "25% fino a 100€ sul primo deposito per i VIRTUALI ",
     "bonusExtra": "100% di rimborso fino a 100€ sulle giocate non vincenti",
-    "valutazione": "5",
+    "valutazione": "4.5",
     "descrizione": "Vasta scelta per i virtual game",
     "tipi": ["Calcio", "Cani", "Cavalli"],
     "link": "https://bit.ly/3ifjsuo"
   },
 
+  "sisal": {
+    "logo": "./src/img/sisal.png",
+    "website": "Sisal",
+    "bonus": "50% di bonus sul tuo primo deposito",
+    "bonusExtra": "",
+    "valutazione": "4.5",
+    "descrizione": "",
+    "link": "https://bit.ly/3SAdQaZ"
+  },
+
+  "betpremium": {
+    "logo": "./src/img/betpremium.png",
+    "website": "BetPremium",
+    "bonus": "100% di bonus sul tuo primo deposito",
+    "bonusExtra": "",
+    "valutazione": "4",
+    "descrizione": "",
+    "link": "https://www.betpremium.it/index.aspx?promoter=$Aff_Log1"
+  },
+
   "william hill": {
     "logo": "./src/img/William-Hill-Logo.png",
-    "website": "William hill",
+    "website": "William Hill",
     "bonus": "Triplo bonus di benvenuto 225€",
-    "bonusExtra": "5€ + 20€ + 200€ ",
-    "valutazione": "4",
+    "valutazione": "4.5",
     "link": "https://bit.ly/3kvCspF"
+  },
+
+  "betfair": {
+    "logo": "./src/img/betfair.png",
+    "website": "BetFair",
+    "bonus": "Bonus benvenuto 20€ Gratis",
+    "bonusExtra": "100€ di Benvenuto",
+    "valutazione": "4",
+    "link": "https://bit.ly/3Rh1jcv"
+  },
+
+  "novibet": {
+    "logo": "./src/img/novibet.png",
+    "website": "NoviBet",
+    "bonus": "50% sul tuo primo deposito",
+    "bonusExtra": "",
+    "valutazione": "4.5",
+    "link": "https://bit.ly/45liCjW"
+  },
+
+  "betn1": {
+    "logo": "./src/img/betn1.png",
+    "website": "BetN1",
+    "bonus": "Bonus 100% sul primo deposito + 10€ gratis",
+    "bonusExtra": "50 free spin (codice WBSPORT500 al deposito)",
+    "valutazione": "4",
+    "link": "https://www.betn1.it/registrazione?codAffiliato=VIRTUALBAR&promo=10SPORT"
   },
 
   "Planetwin 365": {
@@ -35,8 +100,17 @@
     "website": "Planetwin 365",
     "bonus": "BONUS SPORT DI BENVENUTO FINO A 300€",
     "bonusExtra": "Possibilità di exchange",
-    "valutazione": "3.5",
+    "valutazione": "4",
     "link": "https://promos.planetwin365.it/planetwin/?btag=654988_25FDBC35E7B04E97B95B6675C93FE760"
+  },
+
+  "vincitu": {
+    "logo": "./src/img/vincitu.png",
+    "website": "Vincitù",
+    "bonus": "50% di bonus sul tuo primo deposito",
+    "bonusExtra": "",
+    "valutazione": "3.5",
+    "link": "http://bitly.ws/Cno"
   },
 
   "Win hub": {
