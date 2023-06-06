@@ -42,11 +42,15 @@
   }
 
   .nav picture {
+    height: auto;
+
     padding-top: 2rem;
   }
 
   .nav picture img {
-    width: 100%;
+    height: auto;
+
+    width: 50%;
   }
 
   .nav h1 {
