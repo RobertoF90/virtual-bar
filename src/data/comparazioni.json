@@ -60,10 +60,21 @@
     "link": "https://www.betpremium.it/index.aspx?promoter=$Aff_Log1"
   },
 
+  "betflag": {
+    "logo": "./src/img/betflag.png",
+    "website": "BetPremium",
+    "bonus": "1000€ di bonus sullo sport senza deposito",
+    "bonusExtra": "Bonus senza deposito con registrazione SPID",
+    "valutazione": "4",
+    "descrizione": "",
+    "link": "hhttps://info.betflag.it/promozioni-e-bonus/welcome-bonus/?btag=PV678_3D37FA095EFE4DC49CA8565CF37DCF5A"
+  },
+
   "william hill": {
     "logo": "./src/img/William-Hill-Logo.png",
     "website": "William Hill",
     "bonus": "Triplo bonus di benvenuto 225€",
+    "bonusExtra": "",
     "valutazione": "4.5",
     "link": "https://bit.ly/3kvCspF"
   },
