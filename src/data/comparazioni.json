@@ -29,6 +29,16 @@
     "link": "https://bit.ly/42r5OXw"
   },
 
+  "betflag": {
+    "logo": "./src/img/betflag.png",
+    "website": "Betflag",
+    "bonus": "1000€ di bonus sullo sport senza deposito",
+    "bonusExtra": "Bonus senza deposito con registrazione SPID",
+    "valutazione": "4",
+    "descrizione": "",
+    "link": "https://info.betflag.it/promozioni-e-bonus/welcome-bonus/?btag=PV678_3D37FA095EFE4DC49CA8565CF37DCF5A"
+  },
+
   "snai": {
     "logo": "./src/img/logo-snai.png",
     "website": "SNAI",
@@ -58,16 +68,6 @@
     "valutazione": "4",
     "descrizione": "",
     "link": "https://www.betpremium.it/index.aspx?promoter=$Aff_Log1"
-  },
-
-  "betflag": {
-    "logo": "./src/img/betflag.png",
-    "website": "BetPremium",
-    "bonus": "1000€ di bonus sullo sport senza deposito",
-    "bonusExtra": "Bonus senza deposito con registrazione SPID",
-    "valutazione": "4",
-    "descrizione": "",
-    "link": "hhttps://info.betflag.it/promozioni-e-bonus/welcome-bonus/?btag=PV678_3D37FA095EFE4DC49CA8565CF37DCF5A"
   },
 
   "william hill": {
